@@ -9,7 +9,7 @@ interface Props {
 const CHARADE_CLUES = [
   { num: "1er", syllable: "ob", clue: "Presque un Bob... indice : Sebastien l'est" },
   { num: "2e", syllable: "ser", clue: "Les doigts des oiseaux" },
-  { num: "3e", syllable: "vat", clue: "Très étendu" },
+  { num: "3e", syllable: "vat", clue: "Trèèès étendu" },
   { num: "4e", syllable: "ion", clue: "Pas tout à fait un atome (oui, jsuis prof de physique)" },
   { num: "5e", syllable: "as", clue: "Je bats les autres au poker !" },
   { num: "6e", syllable: "tro", clue: "Allure de cheval" },
