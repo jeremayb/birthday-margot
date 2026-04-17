@@ -133,27 +133,6 @@ export default function CharadeScreen({ onSuccess }: Props) {
           <div className="mt-2 h-px bg-gradient-to-r from-transparent via-purple-800 to-transparent" />
         </div>
 
-        {/* Mon tout */}
-        <div
-          className="rounded-xl p-4 text-center animate-fade-in"
-          style={{
-            background: "rgba(88, 28, 135, 0.15)",
-            border: "1px solid rgba(147, 51, 234, 0.3)",
-            animationDelay: "0.2s",
-            opacity: 0,
-          }}
-        >
-          <p className="text-purple-300 text-xs tracking-widest uppercase mb-1" style={{ fontFamily: "var(--font-space)" }}>
-            Mon tout
-          </p>
-          <p
-            className="text-white font-bold text-lg"
-            style={{ fontFamily: "var(--font-playfair)", letterSpacing: "0.05em" }}
-          >
-            Observation Astronomique
-          </p>
-        </div>
-
         {/* Clues */}
         <div className="flex flex-col gap-3">
           {CHARADE_CLUES.map((item, i) => (
