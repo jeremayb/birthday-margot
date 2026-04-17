@@ -18,7 +18,7 @@ const CHARADE_CLUES = [
 ];
 
 const LUGUBRIOUS_MESSAGES = [
-  "Les ombres ricanen de ta tentative...",
+  "Les ombres ricanent de ta tentative...",
   "Même les étoiles se détournent de toi ce soir.",
   "La nuit murmure : essaie encore, pauvre âme.",
   "Ton destin se referme comme un tombeau.",
@@ -80,6 +80,7 @@ export default function CharadeScreen({ onSuccess }: Props) {
         background: "radial-gradient(ellipse at top, #0d0d1a 0%, #050508 60%, #000000 100%)",
         opacity: visible ? 1 : 0,
         transition: "opacity 0.7s ease-out",
+        padding: "2rem",
       }}
     >
       {/* Subtle grain overlay */}
